@@ -55,7 +55,7 @@ sources:
         target: ros_packages/mrs_lib
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_mavros_interface.git
+  - repo: https://github.com/zejdajan/mrs_mavros_interface.git
     name: mrs_mavros_interface
     rev: master
     type: git
@@ -88,7 +88,7 @@ sources:
         target: ros_packages/mrs_rviz_plugins
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_uav_controllers.git
+  - repo: https://github.com/zejdajan/mrs_uav_controllers
     name: mrs_uav_controllers
     rev: master
     type: git
@@ -110,7 +110,7 @@ sources:
         target: ros_packages/mrs_uav_general
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_uav_managers.git
+  - repo: https://github.com/zejdajan/mrs_uav_managers.git
     name: mrs_uav_managers
     rev: master
     type: git
@@ -154,7 +154,7 @@ sources:
         target: ros_packages/mrs_uav_testing
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_uav_trackers.git
+  - repo: https://github.com/zejdajan/mrs_uav_trackers.git
     name: mrs_uav_trackers
     rev: master
     type: git
@@ -254,9 +254,9 @@ sources_locked:
         target: ros_packages/mrs_lib
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_mavros_interface.git
+  - repo: https://github.com/zejdajan/mrs_mavros_interface.git
     name: mrs_mavros_interface
-    rev: 117de9f5ddb5adc638bdbcb215dd05893fb4839a
+    rev: 494db3ea05f86d8694854e543a8e0b70b2ac8d3c
     type: git
     sparse_paths:
       -
@@ -287,9 +287,9 @@ sources_locked:
         target: ros_packages/mrs_rviz_plugins
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_uav_controllers.git
+  - repo: https://github.com/zejdajan/mrs_uav_controllers
     name: mrs_uav_controllers
-    rev: 599ffa5865dfdc11e86da6e17e07c91add0252e5
+    rev: 60907c8cc635dc68b1725be71f9e498ccf2706f8
     type: git
     sparse_paths:
       -
@@ -309,9 +309,9 @@ sources_locked:
         target: ros_packages/mrs_uav_general
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_uav_managers.git
+  - repo: https://github.com/zejdajan/mrs_uav_managers.git
     name: mrs_uav_managers
-    rev: 187d4c38189967788b320d9ced3c19edd1488104
+    rev: bbe5da0473347d54915a80ef8ef343f14427267a
     type: git
     sparse_paths:
       -
@@ -353,9 +353,9 @@ sources_locked:
         target: ros_packages/mrs_uav_testing
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_uav_trackers.git
+  - repo: https://github.com/zejdajan/mrs_uav_trackers.git
     name: mrs_uav_trackers
-    rev: bed1ba2607177ebffc7f47045a0171a3f3dcf1e5
+    rev: 31ba98c14f0d0ba756adb45c3f0c0d3887550a93
     type: git
     sparse_paths:
       -
