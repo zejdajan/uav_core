@@ -77,7 +77,7 @@ sources:
         target: ros_packages/mrs_msgs
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_rviz_plugins.git
+  - repo: https://github.com/zejdajan/mrs_rviz_plugins.git
     name: mrs_rviz_plugins
     rev: master
     type: git
@@ -276,9 +276,9 @@ sources_locked:
         target: ros_packages/mrs_msgs
     scripts:
       - git submodule update --init --recursive
-  - repo: https://github.com/ctu-mrs/mrs_rviz_plugins.git
+  - repo: https://github.com/zejdajan/mrs_rviz_plugins.git
     name: mrs_rviz_plugins
-    rev: ae3e33345f82a0daf65889d2a1e8d74fdddc679d
+    rev: f9655d7a7481878b20b47a9c3a4f0d5d56096ba0
     type: git
     sparse_paths:
       -
